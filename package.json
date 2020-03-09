@@ -1,0 +1,24 @@
+{
+  "name": "node-vue-moda",
+  "version": "1.0.0",
+  "description": "web全栈:王者荣耀web+App+后台管理系统",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Annfish1234/echartsProject.git"
+  },
+  "keywords": [
+    "123"
+  ],
+  "author": "annafish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Annfish1234/echartsProject/issues"
+  },
+  "homepage": "https://github.com/Annfish1234/echartsProject#readme"
+}
