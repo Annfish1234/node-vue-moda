@@ -1,8 +1,10 @@
-//模型
+//mongoose模型Category
 const mongoose = require("mongoose")
-const categorySchema ={
+
+const schema = new mongoose.Schema({
     name:{type:String}
-}
-const Category = mongoose.model("Category",new mongoose.Schema(categorySchema))
+})
+
+const Category = mongoose.model("Category",schema)
 
 module.exports =Category

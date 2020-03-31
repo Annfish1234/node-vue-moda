@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
+import Main from '@/views/Main.vue'
 
 Vue.use(Router)
 
@@ -8,8 +8,13 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
-    }
+      name: 'main',
+      component: Main,
+      children:[
+        {path:'/categorise/create',component:()=>import('@/views/CategoryEdit')},
+        {path:'/categories/list',component:()=>import('@/views/CategoryList')}
+      ]
+    },
+
   ]
 })

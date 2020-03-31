@@ -3,8 +3,14 @@
   "version": "1.0.0",
   "description": "web全栈:王者荣耀web+App+后台管理系统",
   "main": "index.js",
-  "dependencies": {},
-  "devDependencies": {},
+  "dependencies": {
+    "css-loader": "^3.4.2"
+  },
+  "devDependencies": {
+    "sass": "^1.26.3",
+    "sass-loader": "^8.0.2",
+    "vue-style-loader": "^4.1.2"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
